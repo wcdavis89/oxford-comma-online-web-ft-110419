@@ -3,7 +3,7 @@ if array.size<2
  p array.join
 else array.size<3
   array.join(", ")
-  array.join(" and ")
+  array.insert(-2,"and")
 
 end
 end
