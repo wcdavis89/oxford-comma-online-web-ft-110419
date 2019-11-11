@@ -5,5 +5,4 @@ else array.size<3
   array.join(" and ")
 
 end
-array
 end
