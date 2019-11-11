@@ -4,6 +4,6 @@ if array.size<2
 elsif array.size<3
 p array.join(" and ")
 else array.size>3
-p  array[0..-2].join(", ")+(" and ")+array[-1]
+p  array[0..-2].join(", ")+(", and ")+array[-1]
 end
 end
